@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")]
 
     home_buttons = [
         generate_single_button,
@@ -13,27 +13,24 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/AviaxOfficial/17")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/AviaxOfficial")],
     ]
 
     START = """
-Hey {}
+Hello {}
 
 Welcome to {}
 
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
+I am Session String Generator bot for Pyrogram & Telethon.
 
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
+Just Tap on the Pyrogram or Telethon button below which you want to generate
 
-By @StarkBots
+By @AviaxOfficial
     """
 
     HELP = """
@@ -50,13 +47,11 @@ By @StarkBots
     ABOUT = """
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+Telegram Bot to generate Pyrogram and Telethon string session by @AviaxOfficial
 
 Framework : [Pyrogram](https://docs.pyrogram.org)
 
 Language : [Python](https://www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @RahulChoudhary17
     """
